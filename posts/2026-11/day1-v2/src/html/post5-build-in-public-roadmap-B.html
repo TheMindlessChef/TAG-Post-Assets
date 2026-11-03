@@ -1,0 +1,22 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:SG;src:url("file:///usr/share/fonts/truetype/sand-box/google/Space Grotesk/SpaceGrotesk-VariableFont_wght.ttf");font-weight:300 700}
+@font-face{font-family:INTER;src:url("file:///usr/share/fonts/truetype/sand-box/google/Inter/Inter-VariableFont_opsz,wght.ttf");font-weight:100 900}
+@font-face{font-family:PLEX;src:url("file:///usr/share/fonts/truetype/sand-box/google/IBM Plex Sans/IBMPlexSans-VariableFont_wdth,wght.ttf");font-weight:100 700}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1600px;height:900px;background:#000000;overflow:hidden;color:#F2F0EB}
+.h{font-family:PLEX;font-weight:700;letter-spacing:-0.025em;line-height:1.02;font-feature-settings:"kern";text-wrap:balance}
+.b{font-family:PLEX;font-weight:400;letter-spacing:-0.005em;line-height:1.35;text-wrap:pretty}
+.kick{font-size:24px;color:#1E7BFF;letter-spacing:0.01em}
+.hd{font-size:80px}
+.sec{font-size:32px;line-height:1.3;text-wrap:balance}
+.body{font-size:27px}
+.lab{font-size:24px;line-height:1.3}
+.acc{color:#1E7BFF}
+svg text{font-family:PLEX;font-weight:400;fill:#F2F0EB}
+svg .hs{font-family:PLEX;font-weight:700}
+.abs{position:absolute}
+</style></head><body><div class="b kick" style="height:53px;display:flex;align-items:center;padding-left:0px;position:absolute;left:128px;top:128px">Build-in-public check-in</div><div class="abs" style="left:128px;top:280px;width:704px;height:6px;background:#1E7BFF"></div><div class="abs" style="left:880px;top:282px;width:330px;height:2px;background:#F2F0EB"></div><div class="abs h acc" style="left:128px;top:324px;width:704px;font-size:72px">NEXT:<br>A4G closed launch</div><div class="abs b" style="left:880px;top:324px;width:330px;font-size:34px;line-height:1.25">THEN:<br>MultiChat +<br>Studio Apps</div><div class="abs b sec" style="left:128px;top:502px">Built solo. Built in public.</div><img src="file:///workspace/tag-brand/approved/clean/haggis-arms-crossed.png" style="position:absolute;left:1266.1px;top:317.4px;width:210.5px;height:459.2px"><img src="file:///workspace/tag-brand/approved/clean/tag-logo-metallic.png" style="position:absolute;left:125.6px;top:679.5px;width:214.7px;height:94.8px"><pre id="chk" style="display:none"></pre><script>document.fonts.ready.then(()=>{const r=[];document.querySelectorAll('.h,.b,svg text').forEach(e=>{
+ if(e.children.length&&!(e.tagName=='text')&&[...e.children].some(c=>c.tagName=='DIV'))return;
+ const range=document.createRange();range.selectNodeContents(e);const b=range.getBoundingClientRect();
+ if(b.width>0)r.push({fs:parseFloat(getComputedStyle(e).fontSize),t:e.textContent.slice(0,40),x0:b.left,y0:b.top,x1:b.right,y1:b.bottom,lines:range.getClientRects().length});});
+ document.getElementById('chk').textContent=JSON.stringify(r);});</script></body></html>

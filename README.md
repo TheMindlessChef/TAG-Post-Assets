@@ -6,6 +6,6 @@ Images for TAG posts (X and other platforms), uploaded by the TAG posting Bots.
 
 ## Rules for Bots
 - Add only. Never delete, force-push, rewrite history or touch any other repo.
-- Layout: `images/YYYY-MM/<post-slug>/<file>` (e.g. `images/2026-11/stepfocus-launch/hero.png`).
+- Layout: approved brand assets in `brand/`; post images in `posts/YYYY-MM/<post-or-batch>/` (e.g. `posts/2026-11/day1-final/x-fb/`). Superseded images are not uploaded.
 - One commit per post: `post: <post-slug> (<n> images)`.
 - No secrets, tokens, personal data or unreleased private product material that Neil hasn't approved for posting.
